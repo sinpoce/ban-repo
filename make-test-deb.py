@@ -56,11 +56,11 @@ def main() -> None:
         "Section: utils\n"
         "Priority: optional\n"
         "Maintainer: Ban <ban@example.invalid>\n"
-        "Description: Harmless test package for Ban Personal Repo\n"
+        "Description: Harmless test package for sinpoce-repo\n"
         " This package only installs a text file for testing repository installation.\n"
     ).encode("utf-8")
     marker = (
-        "Ban Personal Repo test package\n"
+        "sinpoce-repo test package\n"
         "安装成功后可以在 /usr/share/ban-repo-test/README.txt 找到此文件。\n"
     ).encode("utf-8")
     control_tar = tar_gz({"./control": control})
